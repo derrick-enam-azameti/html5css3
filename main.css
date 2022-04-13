@@ -1,11 +1,12 @@
-.blue{
+#blue{
     color: blue;
 }
 
-.red{
+#red{
     color: red;
 }
 
-.yellow{
+#yellow{
     color: yellow;
+    background-color: black;
 }
