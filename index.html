@@ -2,14 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tut 10 - video tag</title>
+        <title>Tut 11 - Intro to css</title>
+        <style>
+            p{
+                color: blue;
+            }
+            
+            h1{
+                background-color: yellow;
+            }
+        </style>
     </head>
     <body>
-        <!-- <audio controls loop autoplay src="B1.mp3"></audio> -->
-
-        <!-- you could also add autoplay and loop to the video tag -->
-        <video width="640" height="360" controls src="flutter-video.mp4" type="video/mp4">
-            If you can see this, you need to update your browser
-        </video>
+        <h1>Intro to css</h1>
+        <p style="color: red;">I'm red by inline styling and I have precedence over internal stylesheet and external stylesheet</p>
+        <p style="color: blue;">I'm blue too, inline😊</p>
+        <p>I was colored by the internal css</p>
     </body>
 </html>
