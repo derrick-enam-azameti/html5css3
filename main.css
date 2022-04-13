@@ -1,10 +1,10 @@
-div{
-    border: 1px solid red;
-    background-color: yellow;
+/* div{
+    height: 250px;
     width: 250px;
-}
-
-span{
-    color: green;
-    text-decoration: underline;
+    background-color: #00abcd;
+} */
+div{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(199, 177, 177);
 }
