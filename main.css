@@ -43,17 +43,32 @@ footer {
 /* Float aside and main section */
 .left_side{
     float: left;
-    width: 686px;
-    border: 2px solid red;
-    margin-right: 10px;
+    width: 700px;
+    /* border: 2px solid red; */
+    /* margin-right: 10px; */
+    /* padding: 5px; */
 }
 .right_side{
     float: left;
-    width: 296px;
-    border: 2px solid blue;
+    width: 300px;
+    /* border: 2px solid blue; */
 }
+.left_side article{
+    border: 2px solid red;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.right_side div{
+    border: 2px solid blue;
+    margin:0px 0px 10px 0px;
+    padding: 10px;
+}
+
+
 
 /* make footer clear floated elements */
 .page_footer{
     clear: both;
+    text-align: center;
 }
