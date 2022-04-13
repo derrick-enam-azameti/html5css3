@@ -1,18 +1,4 @@
-#para1{
-    font-family: cursive;
-    font-weight: bold;
-    /* font-weight: 400; */
-    font-style: normal;
-    font-size: 50px;
-}
-
-#para2{
-    font-family: cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-}
-
-#para3{
-    font: bold italic 20px Tahoma;
+/* Css commnents */
+p{
+    font: bold italic 20px Tahoma;/* weight style size family */
 }
