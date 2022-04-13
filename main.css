@@ -3,6 +3,8 @@
     width: 200px;
     text-align: center;
     padding: 50px 0px;
-    border-radius: 10px;
-    border-top-left-radius: 55px;
+    border-radius: 30px;
+    /* background-image: linear-gradient(to top, red, yellow, green, blue); */
+    background-image: linear-gradient(to bottom, red, yellow, green, blue);
+    /* background-image: linear-gradient(to bottom, red 10%, yellow 40%, green 10%, blue); */
 }
