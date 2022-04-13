@@ -1,11 +1,16 @@
-/* pseudo classes */
+/* more pseudo classes */
 
-p:first-letter{
-    color: blue;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-h2::first-line{
+#parent p:first-child{
     color: red;
+    text-decoration: underline;
+}
+#parent p:last-child{
+    color: blue;
+    text-decoration: underline;
+}
+#parent p:before{
+    content: "I am before ";
+}
+#parent p:after{
+    content: " I am after";
 }
