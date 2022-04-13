@@ -1,31 +1,10 @@
-/* 
-The Box Model
-
--The Content
--The Padding - the space around the outside of our content but still inside the yellow background.
--The Border - a decorative pattern that we can put all the way around our content.
--The Margin - the amount of whitespace you have outside of your box.
-
-
-*/
-
-
-h1{
+div{
+    border: 1px solid red;
     background-color: yellow;
-    padding: 10px 40px;
-    border-top: 4px dotted red;
-    border-bottom: 8px groove orange;
-    margin: 0px;
+    width: 250px;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-}
-h1{
-    background-color: yellow;
-    padding: 10px 40px;
-    border-top: 4px dotted red;
-    border-bottom: 8px groove orange;
-    margin: 10px 30px 60px 100px;
+span{
+    color: green;
+    text-decoration: underline;
 }
