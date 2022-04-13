@@ -9,6 +9,7 @@ header,
 nav,
 article,
 section,
+aside,
 footer {
     display: block;
 }
@@ -17,6 +18,24 @@ footer {
 .container{
     width: 1000px;
     margin: 0px auto;
-    border: 2px solid black;
 }
 
+.clear{
+    clear: both;
+}
+
+.logo{
+    height: 100px;
+    width: 232px;
+    float: left;
+}
+
+.top_nav{
+    float: left;
+    width: 768px;
+}
+
+.top_nav ul li{
+    float: left;
+    padding: 35px 20px;
+}
