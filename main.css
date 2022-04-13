@@ -1,12 +1,15 @@
-#blue{
-    color: blue;
-}
+/* div p{
+    color: red;
+} */
 
-#red{
+div>p{
     color: red;
 }
 
-#yellow{
-    color: yellow;
-    background-color: black;
+#blue p {
+    color: blue;
+}
+
+.green p {
+    color: green;
 }
