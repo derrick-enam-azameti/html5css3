@@ -1,4 +1,34 @@
-/* Css commnents */
-p{
-    font: bold italic 20px Tahoma;/* weight style size family */
+/* 
+The Box Model
+
+-The Content
+-The Padding - the space around the outside of our content but still inside the yellow background.
+-The Border - a decorative pattern that we can put all the way around our content.
+-The Margin - the amount of whitespace you have outside of your box.
+
+
+*/
+
+
+/* h1{
+    background-color: yellow;
+    padding: 50px;
+} */
+
+/* h1{
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+
+h11111{
+    background-color: yellow;
+    padding: 10px 80px 0px 30px; /* top right bottom left */
+}
+
+h1 {
+    background-color: yellow;
+    padding: 10px 40px; /* top and bottom  left and right*/
 }
