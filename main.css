@@ -1,19 +1,6 @@
-a{
-    color: green;
-    text-decoration: none;
-}
-
-a:hover{
-    color: red;
-    text-decoration: underline;
-
-}
-
-a:active{
-    color: orange;
-}
-
-a:visited{
-    color: limegreen;
-    text-decoration: none;
+ul{
+    /* list-style: lower-greek; */
+    list-style-image: url(dmr.jpg);
+    line-height: 800%;
+    list-style-position: inside;
 }
