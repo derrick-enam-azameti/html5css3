@@ -1,16 +1,4 @@
-/* more pseudo classes */
-
-#parent p:first-child{
-    color: red;
-    text-decoration: underline;
-}
-#parent p:last-child{
-    color: blue;
-    text-decoration: underline;
-}
-#parent p:before{
-    content: "I am before ";
-}
-#parent p:after{
-    content: " I am after";
+#parent p:nth-child(4n){
+    background-color: greenyellow;
+    color: orange;
 }
