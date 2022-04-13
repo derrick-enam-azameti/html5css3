@@ -2,64 +2,46 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tut 40 - creating a website layout part 7</title>
+        <title>Tut 41 - Introduction to tables</title>
         <link rel="stylesheet" href="./main.css">
     </head>
     <body>
-        <div class="container">
-            <header>
-                <img class="logo" src="./profilePic.png" alt="logo area">
-                <nav class="top_nav">
-                    <ul>
-                        <li><a href="">Home</a></li>     
-                        <li><a href="">About</a></li>     
-                        <li><a href="">Tutorials</a></li>     
-                        <li><a href="">Contact</a></li>     
-                    </ul>
-                </nav>
-                <div class="clear"></div>
-            </header>
-    
-            <section class="left_side">
-                <article>
-                    <header>
-                        <h2>This is an article header</h2>
-                        <h3>This is a sub header</h3>                    
-                    </header>
-                    <p>This is para 1</p>
-                    <p>This is para 2</p>
-                    <footer>
-                        - Written by Somebody's somebody
-                    </footer>
-                </article>            
-            </section>
-            
-            <aside class="right_side">
-                <div>
-                    <h2>Social links</h2>
-                    <ul>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Twitter</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Related articles</h2>
-                    <article>
-                        <header>
-                            <h3>This can be a heading for another story</h3>
-                        </header>
-                        <p>Get interested and click below to see more</p>
-                        <footer>
-                            <a href="">See More</a>
-                        </footer>
-                    </article>
-                </div>
-            </aside>
-    
-            <footer class="page_footer">
-                &copy; Copyright mysite.com
-            </footer>
-        </div>
+        <table border="1">
+            <caption>Best Selling Games World Wide -- Wikipedia</caption>
+            <thead>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Year of Release</th>
+                <th>Copies sold</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tetris</td>
+                    <td>1984</td>
+                    <td>143 million</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Wii Sports</td>
+                    <td>2006</td>
+                    <td>81.99 million</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>minecraft</td>
+                    <td>2009</td>
+                    <td>49.5 million</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Super mario bros</td>
+                    <td>1985</td>
+                    <td>35.53 million</td>
+                </tr>
+            </tbody>
+        </table>
+        
 
     </body>
 </html>
