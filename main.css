@@ -1,15 +1,11 @@
-/* div p{
-    color: red;
-} */
+/* pseudo classes */
 
-div>p{
-    color: red;
-}
-
-#blue p {
+p:first-letter{
     color: blue;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.green p {
-    color: green;
+h2::first-line{
+    color: red;
 }
