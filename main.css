@@ -1,4 +1,19 @@
-#parent p:nth-child(4n){
-    background-color: greenyellow;
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+a:active{
     color: orange;
+}
+
+a:visited{
+    color: limegreen;
+    text-decoration: none;
 }
