@@ -1,10 +1,23 @@
-/* div{
-    height: 250px;
-    width: 250px;
-    background-color: #00abcd;
-} */
 div{
-    height: 250px;
-    width: 250px;
-    background-color: rgb(199, 177, 177);
+    height: 500px;
+    width: 100%; 
+    background-image: url(specs.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: limegreen;
+}
+
+body{
+
+    /* background-image: url(specs.jpg); */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: center; */
+    /* background-position: center top; */
+    /* background-position: right top; */
+    /* background-position: right center; */
+    /* background-position: left top; */
+    /* background-attachment: fixed; */
+
 }
