@@ -2,13 +2,39 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tut 45 - Text & password fields</title>
+        <title>Tut 46 - select lists</title>
         <link rel="stylesheet" href="./main.css">
     </head>
     <body>
         <form action="" method="post">
-           username: <input type="text" name="username" size="1"  maxlength="10"/>
-           password: <input type="password" name="passwordname" size="1"  maxlength="10"/>
+           <select name="myselect1" id="myselect1">
+               <option value="food">food</option>
+               <option value="potato">potato</option>
+               <option value="nachos">nachos</option>
+               <option value="peanuts">peanuts</option>
+           </select>
+           <select name="myselect2" id="myselect2">
+               <option value="food">food</option>
+               <option value="potato">potato</option>
+               <option selected value="nachos">nachos</option>
+               <option value="peanuts">peanuts</option>
+           </select>
+           <select name="myselect3" id="myselect3" multiple size="3">
+               <option value="food">food</option>
+               <option value="potato">potato</option>
+               <option value="nachos">nachos</option>
+               <option value="peanuts">peanuts</option>
+           </select>
+           <select name="myselect4" id="myselect4" multiple>
+               <optgroup label="group 1">
+                <option value="food">food</option>
+                <option value="potato">potato</option>
+               </optgroup>
+               <optgroup label="group 2">
+                <option value="nachos">nachos</option>
+                <option value="peanuts">peanuts</option>
+               </optgroup>
+           </select>
         </form>   
 
     </body>
