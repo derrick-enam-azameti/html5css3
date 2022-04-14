@@ -2,39 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tut 46 - select lists</title>
+        <title>Tut 47 - checkbox and radio button</title>
         <link rel="stylesheet" href="./main.css">
     </head>
     <body>
         <form action="" method="post">
-           <select name="myselect1" id="myselect1">
-               <option value="food">food</option>
-               <option value="potato">potato</option>
-               <option value="nachos">nachos</option>
-               <option value="peanuts">peanuts</option>
-           </select>
-           <select name="myselect2" id="myselect2">
-               <option value="food">food</option>
-               <option value="potato">potato</option>
-               <option selected value="nachos">nachos</option>
-               <option value="peanuts">peanuts</option>
-           </select>
-           <select name="myselect3" id="myselect3" multiple size="3">
-               <option value="food">food</option>
-               <option value="potato">potato</option>
-               <option value="nachos">nachos</option>
-               <option value="peanuts">peanuts</option>
-           </select>
-           <select name="myselect4" id="myselect4" multiple>
-               <optgroup label="group 1">
-                <option value="food">food</option>
-                <option value="potato">potato</option>
-               </optgroup>
-               <optgroup label="group 2">
-                <option value="nachos">nachos</option>
-                <option value="peanuts">peanuts</option>
-               </optgroup>
-           </select>
+            Monday<input type="checkbox" name="cb1" id="cb1" value="mon">
+            Tuesday<input checked type="checkbox" name="cb2" id="cb2" value="tue">
+            Wednesday<input type="checkbox" name="cb3" id="cb3" value="wed">
+            <br><br>
+            
+            Yes<input checked type="radio" name="ans" id="">
+            No<input type="radio" name="ans" id="">
         </form>   
 
     </body>
