@@ -2,16 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tut 49 - buttons</title>
+        <title>Tut 50 - labels and fieldsets</title>
         <link rel="stylesheet" href="./main.css">
     </head>
     <body>
         <form action="" method="get">
-            <input type="text" name="user">
-            <input type="button" value="Click Me">
-            <input type="file">
-            <input type="submit">
-            <input type="reset">
+            <fieldset>
+                <legend>Personal Info:</legend>
+                <label for="first_name">First Name</label>: <input type="text" name="first_name" id="first_name"><br />
+                <label for="last_name">Last Name</label>: <input type="text" name="last_name" id="last_name"><br />
+            </fieldset>
+            <br />
+
+            <fieldset>
+                <legend>Hobbies:</legend>
+                <label for="sports">Sports</label><input type="checkbox" name="sports" value="sports" id="sports">
+                <label for="gaming">Gaming</label><input type="checkbox" name="gaming" value="gaming" id="gaming">
+                <label for="art">Art</label><input type="checkbox" name="art" value="art" id="art">
+                <label for="acting">Acting</label><input type="checkbox" name="acting" value="acting" id="acting">
+            </fieldset>
+            
+            <br />
+            <input type="submit" value="submit">
         </form>   
 
     </body>
